@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+      font-family: Inter;
+      src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    }
+
+    @font-face {
+      font-family: Inter-bold;
+      src: url(assets/fonts/static/Inter-Bold.ttf);
+    }
+
+    @font-face {
+      font-family: Inter-regular;
+      src: url(assets/fonts/static/Inter-Regular.ttf);
+    }
+
+    @font-face {
+      font-family: Inter-semi-bold;
+      src: url(assets/fonts/static/Inter-SemiBold.ttf);
+    }
+
+    :root {
+      --Green: hsl(75, 94%, 57%);
+      --White: hsl(0, 0%, 100%);
+      --Grey700: hsl(0, 0%, 20%);
+      --Grey800: hsl(0, 0%, 12%);
+      --Grey900: hsl(0, 0%, 8%);
+    }
+
+    body {
+      color: var(--White);
+      background-color: var(--Grey900);
+      font-family: Inter;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    section {
+      background-color: var(--Grey800);
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      padding: 24px;
+      border-radius: 10px;
+    }
+
+    h5 {
+      color: var(--Green);
+    }
+
+    img {
+      border-radius: 50%;
+      width: 60px;
+      height: auto;
+    }
+
+    .button-links button {
+      display: block;
+    }
+
+    ul {
+      list-style-type: none;
+      display: grid;
+      gap: 0.5rem;
+      margin-top: 2rem;
+    }
+
+    ul li button {
+      background-color: var(--Grey700);
+      color: #fff;
+      font-size: 1rem;
+      font-weight: bold;
+      width: 100%;
+      padding: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+    }
+
+    ul li button:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      color: #fff;
+      margin-top: 10px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="contianer">
+      <img src="assets/images/avatar-jessica.jpeg" alt="jessica">
+      <h1> Jessica Randall</h1>
+      <h5> London, United Kingdom
+      </h5>
+      <p> "Front-end developer and avid reader."</p>
+    </div>
+    <ul>
+      <li><button>GitHub</button></li>
+      <li><button>Frontend Mentor</button></li>
+      <li><button>LinkedIn</button></li>
+      <li><button>Twitter</button></li>
+      <li><button>Instagram</button></li>
+    </ul>
+    <div>
+
+    </div>
+  </section>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Omar Kamal</a>.
+  </div>
+</body>
+
+</html>
